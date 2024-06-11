@@ -16,11 +16,11 @@
     <a href="#" class="logo">Developer <span>X.</span></a>
     <div class="bx bx-menu" id="menu-icon"></div>
     <ul class="navlist">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfoio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div class="top-btnn">
@@ -86,7 +86,7 @@
     </div>
     <div class="services-content">
         <div class="box">
-            <img src="assets/coding.png">
+            <img src="assets/coding.png" alt="this is a picture">
             <h3>UI/UX Design</h3>
             <p>Experience in Figma, Web Desgin Quisque in metus sed enim scelerisque ultrices in sit amet augue. Donec
                 ac orci quam. Sed sollicitudin eros odio,</p>
@@ -96,7 +96,7 @@
             </a>
         </div>
         <div class="box">
-            <img src="assets/coding.png">
+            <img src="assets/coding.png" alt="this is an image">
             <h3>UI/UX Design</h3>
             <p>Experience in Figma, Web Desgin Quisque in metus sed enim scelerisque ultrices in sit amet augue. Donec
                 ac orci quam. Sed sollicitudin eros odio,</p>
@@ -115,7 +115,8 @@
 
     <div class="portfolio-content">
         <div class="row">
-            <img src="assets/project.jpg">
+            <a href="https://semester-ca-project-final.vercel.app/">
+            <img src="assets/project.jpg" alt="this is an image">
             <div class="main-row">
                 <div class="row-text">
                     <h5>Colusseum</h5>
@@ -125,10 +126,13 @@
                 </div>
             </div>
             <h4>My semester project</h4>
+            </a>
         </div>
 
+
         <div class="row">
-            <img class="img-size" src="assets/project1.png">
+            <a href="https://noroff-js-ca.vercel.app/">
+            <img class="img-size" src="assets/project1.png" alt="this is an image">
             <div class="main-row">
                 <div class="row-text">
                     <h5>Square Eyes</h5>
@@ -138,10 +142,12 @@
                 </div>
             </div>
             <h4>Online Watching Site</h4>
+            </a>
         </div>
 
+
         <div class="row">
-            <img src="assets/project.jpg">
+            <img src="assets/project.jpg" alt="this is an image">
             <div class="main-row">
                 <div class="row-text">
                     <h5>Colusseum</h5>
@@ -167,6 +173,29 @@
         </div>
     </div>
 </section>
+
+<section class="contact" id="contact">
+    <div class="center-text">
+        <h2>Contact<span>Me</span></h2>
+    </div>
+    <div class="contact-form">
+    <form action="">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Email Adress.." required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+        <input type="submit" name="" value="Send Message" class="send-btn">
+    </form>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="copyright">
+        <p>2024 Kevin Do</p>
+    </div>
+    <a href="#home" class="scroll-top">
+        <i class="ri-arrow-up-s-fill"></i>
+    </a>
+</div>
 
 <script src="js/script.js"></script>
 </body>
